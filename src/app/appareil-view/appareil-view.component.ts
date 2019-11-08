@@ -49,6 +49,12 @@ ngOnInit(){
     this.appareilService.switchOffAll();
   }
    
+  onSave(){
+    this.appareilService.saveAppareilsToServeur();
+  }
   
+  onFetch(){
+    this.appareilService.getAppareilsFromServeur();
+  }
 }
 
